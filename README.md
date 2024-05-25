@@ -4,11 +4,11 @@
 
 ## İş Problemi
 
-E-ticarette en önemli sorunlardan biri, ürünlere verilen puanların doğru şekilde hesaplanmasıdır. Bu sorunun çözülmesi, e-ticaret siteleri için müşteri memnuniyetini artırırken, satıcılar için ürünlerinin daha fazla dikkat çekmesini ve alıcılar için sorunsuz bir alışveriş deneyimi sağlamayı içerir. Bir diğer önemli sorun ise ürünlere verilen yorumların doğru bir şekilde sıralanmasıdır. Yanıltıcı yorumların öne çıkması, ürün satışlarını doğrudan etkileyebilir, bu da hem maddi kayıplara hem de müşteri kaybına neden olabilir. Bu iki temel sorunun çözülmesi, e-ticaret siteleri ve satıcıları için satışları artırırken, müşterilerin sorunsuz bir alışveriş deneyimi yaşamasını sağlar.
+☞ E-ticarette en önemli sorunlardan biri, ürünlere verilen puanların doğru şekilde hesaplanmasıdır. Bu sorunun çözülmesi, e-ticaret siteleri için müşteri memnuniyetini artırırken, satıcılar için ürünlerinin daha fazla dikkat çekmesini ve alıcılar için sorunsuz bir alışveriş deneyimi sağlamayı içerir. Bir diğer önemli sorun ise ürünlere verilen yorumların doğru bir şekilde sıralanmasıdır. Yanıltıcı yorumların öne çıkması, ürün satışlarını doğrudan etkileyebilir, bu da hem maddi kayıplara hem de müşteri kaybına neden olabilir. Bu iki temel sorunun çözülmesi, e-ticaret siteleri ve satıcıları için satışları artırırken, müşterilerin sorunsuz bir alışveriş deneyimi yaşamasını sağlar.
 
 ## Veri Seti Hikayesi
 
-Bu veri seti, Amazon ürün verilerini içerir ve çeşitli ürün kategorileri ile ilişkili metadataları içerir. Veri seti içerisinde en fazla yoruma sahip olan elektronik kategorisindeki ürünlerin kullanıcı puanları ve yorumları bulunmaktadır.
+☞ Bu veri seti, Amazon ürün verilerini içerir ve çeşitli ürün kategorileri ile ilişkili metadataları içerir. Veri seti içerisinde en fazla yoruma sahip olan elektronik kategorisindeki ürünlerin kullanıcı puanları ve yorumları bulunmaktadır.
 
 ### Değişkenler:
 - reviewerID: Kullanıcı ID’si
@@ -29,3 +29,12 @@ Bu veri seti, Amazon ürün verilerini içerir ve çeşitli ürün kategorileri 
 ### Görev 1: Ürünü time_based_average_rating yöntemine göre kullanıcıların verdikleri puandan anlamlı bir puan çıkarmak
 
 ### Görev 2: Ürün için yapılan Up-Down Reviews anlamlı şekilde sıralamak 
+
+
+## Kurulum
+☞ Projeyi yerel makinenizde çalıştırmak için şu adımları izleyebilirsiniz:
+
+- GitHub'dan projeyi klonlayın.
+- Projeyi içeren dizine gidin ve terminalde `conda env create -f environment.yaml` komutunu çalıştırarak gerekli bağımlılıkları yükleyin.
+- Derleyicinizi `conda` ortamına göre ayarlayın.
+- Projeyi bir Python IDE'sinde veya Jupyter Notebook'ta açın.
