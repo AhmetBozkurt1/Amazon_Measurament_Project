@@ -51,7 +51,7 @@ pd.set_option("display.float.format", lambda x: "%.3f" % x)
 # puanın karşılaştırılması gerekmektedir.
 
 # Veri Setini Okutma/İnceleme
-df = pd.read_csv("/Users/ahmetbozkurt/Desktop/Amazon_Measurament_Project/dataset/amazon_review.csv")
+df = pd.read_csv("amazon_review.csv")
 df.head()
 df.shape
 df.info()
